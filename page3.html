@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Options</title>
+<link href="page3.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body>
+	<div class = "container">	
+	<h2 align = "center">Choose Wisely</h2>
+	<p align = "center">Click on the button to open the dropdown menu.</p>
+
+		<div class="dropdown">
+  		<button id="myBtn" class="dropbtn">Dropdown</button>
+  		<div id="myDropdown" class="dropdown-content" align = "center">
+    		<a href="index.html">Option 1</a>
+    		<a href="door2.html">Option 2</a>
+    		<a href="page4.html">Option 3</a>
+  			</div>
+		</div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+	
+	
+	
+	
+	
+	
+	</div>
+</body>
+</html>

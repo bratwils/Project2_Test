@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	position: absolute;
+}
+
+.container {
+	position:absolute;
+	left: 5000px;
+	transition: left 10s;
+}
+
+.container:hover {
+	left: 0px;
+}
+
+.eye {
+  position: absolute;
+  left: 451px;
+  top: 403px;
+  width: 54px;
+  height: 25px;
+  z-index: 4;
+}
+
+.mouth {
+  position: absolute;
+  left: 478px;
+  top: 550px;
+  width: 140px;
+  height: 102px;
+  z-index: 3;
+	transition-top: 5s;
+}
+
+.smile {
+  position: absolute;
+  left: 480px;
+  top: 533px;
+  width: 114px;
+  height: 90px;
+  z-index: 2;
+}
+
+.mouth:hover {
+  top: 592px;
+
+}
+
+
